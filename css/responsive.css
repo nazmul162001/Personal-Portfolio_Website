@@ -1,0 +1,11 @@
+/* Responsive  */
+@media only screen and (max-width: 1200px){
+    h2.gradient-text{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 997px){
+    h2.gradient-text{
+        font-size: 40px;
+    }
+}
