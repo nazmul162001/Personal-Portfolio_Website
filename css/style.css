@@ -1,0 +1,138 @@
+/* Reset Css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+                                    /* Short Code  */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0D121A;
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    background-color: #222831;
+}
+
+.common {
+    padding: 27px 0;
+}
+
+                /* All Section Title Text  */
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title h3 {
+    font-weight: 700;
+    color: linear-gradient(to right, #00BCD4, #4CAF50);
+}
+
+.section-title.section-title-left {
+    text-align: left;
+}   /*END Title*/
+
+.content-area {
+    background: #222831;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.gradient-text {
+    background-color: #00BCD4;
+    background-image: linear-gradient(to right, #4CAF50, #00BCD4);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-h3 {
+    background-color: #00BCD4;
+    background-image: linear-gradient(to right, #00BCD4, #4CAF50);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}                               /* END ShortCode*/
+
+
+
+
+                                /* navbar section */
+.navbar {
+    margin: 30px 0 50px 0;
+    background: #222831;
+    padding: 10px 30px;
+    transition: all .5s ease;
+    border-radius: 10px;
+    height: 90px;
+}
+a.navbar-brand{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* about section  */
+
+.about .content-area {
+    padding: 0;
+}
+
+.about .content-area p {
+    margin: 0;
+}
+
+.about .content-left {
+    padding: 40px;
+}
+
+.about .content-left .content h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: linear-gradient(to right, #00BCD4, #4CAF50);
+}
+
+.about .content-right {
+    background: url(/img/about-vector.png);
+    background-size: cover;
+    background-position: 50% 70%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+
+                                    /* Resume Section  */
+
+.title-resume {
+    text-align: left;
+}
+
+.title-resume h3 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 300;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.title-resume h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.title-resume h2 span {
+    color: #FFFFFF;
+}
+
