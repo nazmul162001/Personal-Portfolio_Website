@@ -112,7 +112,7 @@ a.navbar-brand{
 }
 
 .about .content-right {
-    background: url(/img/about-vector.png);
+    background: url(../img/about-vector.png);
     background-size: cover;
     background-position: 50% 70%;
     height: 100%;
